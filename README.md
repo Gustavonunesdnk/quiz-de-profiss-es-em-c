@@ -8,7 +8,9 @@ Se as respostas não forem conclusivas para a escolha da profissão, existe tamb
 "profissão indefinida".
 Como é a parte da pontuação e da escolha:
 
+
 printf("Pergunta 7) O que mais te motiva em um trabalho?\n ");
+
     puts("1) Inovar e criar soluções inteligentes para minha empresa --- Digite 1\n");
     puts("2) Criar solucoes que impactem a sociedade --- Digite 2\n");
     puts("3) Descobrir e interpretar tendências  --- Digite 3\n ");
@@ -18,7 +20,8 @@ printf("Pergunta 7) O que mais te motiva em um trabalho?\n ");
         eia = eia + 2;
         dsf++;
         anc++;
-        ans++;
+        ans++; 
+        
     } else if (R1 == 2) {
         cdd++;
         dsf = dsf + 2;
@@ -30,8 +33,7 @@ printf("Pergunta 7) O que mais te motiva em um trabalho?\n ");
         anc++;
         admb++;
         admr++;
-    }
-
+        
 
     const char *profissaoVencedora;
     const char *descricaoProfissao;
